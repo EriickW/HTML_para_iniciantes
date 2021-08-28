@@ -1,0 +1,30 @@
+
+body{
+    background-image: url(../img/fundoretro.jpg);
+}
+.port1{
+    background:black ;
+    display: flex;/*ajuda a ficar no centro*/
+	justify-content: center;/*ajuda a ficar no centro*/
+    font-family: Verdana;
+    color: white;
+}
+.texto{
+    background-color: black;
+    border: 5px solid purple;
+    border-radius: 0px;
+    padding: 10px;
+    width: 400px;
+   color: white;
+   font-size: 20px;
+   
+}
+.texto1{
+    background-color: purple;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+   color: white;
+   font-size: 20px;
+   display: flex;
+	justify-content: center;
+}

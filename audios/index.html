@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios</title>
+</head>
+<body>
+    <h1>Reprodução de áudio</h1>
+    <p>Audio</p>
+    <!-- <audio src="audios/audio1.mp3"  controls autoplay></audio> -->
+    <audio preload="metadata" autoplay controls loop><!-- Quando for selecionado a função preload
+    vai poder escoler entre auto,metadata e none. O padrão é auto mas o site so vai
+considerar que foi todo carregado quando o audio for carregado
+ ja o metadata: so vai carregar as informações do arquivo como nome,data duração
+já o none: ele nao carrega nada somente quando o usuário utilizar os controles
+o autoplay faz com que os audios ativem sozinhos com se fosse de fundo
+o controls mostra os controles para o usuario poder iniciar ou parar a musica
+ja o loop quando a música terminar ela irá recomeçar -->
+        <source src="audios/audio1.mp3" type="audio/mpeg">
+        <source src="audios/audio1.mp3" type="audio/ogg">
+        <source src="audios/audio1.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio
+             <a href="audios/audio1.mp3">Clique Aqui para Baixar o arquivo MP3</a></p>
+
+    </audio>
+</body>
+</html>

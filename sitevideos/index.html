@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com video</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video width="600" height="600" poster="imagens/imagem.png"  controls>
+        <!-- O comando poster coloca uma imagem no video (igual a uma thumbmail) -->
+        <source src="videos/video1.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de video <a href="videos/video1.mp4"></a></p>
+    </video><!-- Videos inseridos assim no site consomem dados do servidor
+    fazendo com que o proprietario do site tenha muito prejuizo com a hospedagem -->
+    <hr><br>
+    <h1>Inserindo videos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-WpnPSChVRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!-- Os videos que são utilizados do youtube não consomem dados do 
+    servidor do seu site mais sim do próprio youtube ou seja menos gastos com
+o servidor-->
+
+</body>
+</html>
